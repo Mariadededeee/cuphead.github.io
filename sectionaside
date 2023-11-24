@@ -1,0 +1,36 @@
+<h1> Introducción </h1>
+				<p>Cuphead es un juego clásico de acción de disparos enfocado en <strong> batallas de jefes. </strong> Inspirado en las caricaturas de 1930, las imágenes y el audio se crearon de forma minuciosa con las mismas técnicas de la era, esto es, animación tradicional a mano, fondos de marca de agua y grabaciones originales de jazz.
+				</p>
+				<p>En este juego los personajes, Cuphead y Mugman, apuestan y pierden contra, el que se transforma en su mayor rival, el Diablo, a quien le deberan pagar su deuda. Para conseguirlo, ellos deben derrotar algunos jefes, los cuales le deben el alma al Diablo. 
+				</p>
+				<h2> Jugabilidad </h2>
+				<p> El juego presenta una secuencia de niveles de ramificados y se basa en continuas peleas de jefes. Cuphead tiene vidas infinitas y guarda armas entre las muertes. Los niveles son accesibles a través de un mapa del mundo de estilo acción-RPG con sus propias áreas secretas. El juego tiene un modo cooperativo para dos jugadores que agrega otro jugador humano a las batallas de jefes de un solo jugador, jugando como Mugman. 
+				</p>
+				<img src="img/aside.png" alt="aside">
+				<img src="img/fichitas.jpg" alt="fichitas">
+				
+				
+				
+				
+				
+section{
+	height: auto;
+	width: 64%;
+	padding:2%;
+	margin-left:1%;
+	
+}
+aside{ 
+	height: auto;
+	width: 29%;
+	padding: 1%;
+}
+aside img{
+	width: 90%;
+	margin: 25px;
+	margin-top: 40px;
+}
+section p{
+	padding:0%;
+	text-align:justify;
+	}

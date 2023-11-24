@@ -1,0 +1,960 @@
+@font-face{ 
+	font-family: "LEMON MILK";
+	src:url("f/LEMONMILK-Regular.otf");
+}
+
+/*color:  #ffcf10* amarillo y sombra de t #615555    #834040*/
+
+
+body{ 
+	margin: 0;
+	font-family: verdana;
+}
+.cont{
+		height: auto;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+}
+header{
+		height: 70%;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+}
+nav{
+	height: auto;
+	width: 10%;
+	position:absolute;
+	z-index: 1;
+}
+.links{
+	height: auto;
+	width: 100%;
+	position: relative;
+	padding: 20%;
+}
+.links img{
+	width: 30%;
+}
+.links .desple{
+	height: auto;
+	width: 96%;
+	display: none;
+	overflow: hidden;
+	position: absolute;
+	background-color: #61555596;
+	padding: 2%;
+}
+.links:hover .desple{
+	display: block;
+}
+.links .desple ul{
+	padding: 0%;
+	margin: 0%;
+	list-style:none;
+	text-align: left;
+}
+.links .desple li a{
+	display: block;
+	padding: 10%;
+	text-decoration: none;
+}
+.links .desple li a:link{
+	font-size: 15px;
+	color:#000000;
+	font-family: "LEMON MILK";
+}
+.links .desple li a:visited{
+	font-size: 13px;
+	color:#000000;
+	font-family: "LEMON MILK";
+}
+.links .desple li a:hover{
+	color:#f5f5f5;
+	background-color: #679fba;	
+	transition: color 1s, background-color 0.5s;
+}
+.banner{
+		height: auto;
+		width: 100%;
+		display: flex;
+}
+.banner img{
+		width: 100%;
+}
+footer{
+	color:grey;
+	height: auto;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	background-color: #f5f5f5;
+	border-top-style: solid;
+	border-width: 1px;
+	border-color: grey;
+}
+.logo{
+	height: auto;
+	width: 10%;
+	padding: 1%;
+}
+.logo img{
+		width: 100%;
+}
+.redes{
+	height: auto;
+	width: 3%; 
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+.redes img{
+		width: 100%;
+}
+.marcas{
+	height: auto;
+	width: 80%;
+	padding: 1%;
+}
+.marcas img{
+		width: 100%;
+}
+.termi{	
+	padding:1%;
+	}
+.termi p{	
+	font-size: 13px;
+	text-align:justify;
+}
+h1{
+	font-size: 30px;
+	text-align: center;
+	font-family: "LEMON MILK";
+}
+h2{
+	font-size: 22px;
+	text-align: center;
+	font-family: "LEMON MILK";
+
+}
+h3{
+	font-size: 20px;
+	font-family: "LEMON MILK";
+}
+p{
+	
+	text-shadow: 0px 1px 2px #615555;
+	line-height: 35px;
+	font-size:19px;
+	text-align: justify;
+	font-family: verdana;
+
+}
+ul{
+	font-family:verdana;
+}
+li{
+	font-size:17px;
+	font-family:verdana;
+	padding:2%;
+}
+aside img{
+	width: 100%;
+}
+/*--------------------------INDEX----------------------------*/
+.fondo{
+	height: auto;
+	width: 100%;
+}
+.fondo img{
+	width: 100%;
+}
+.slider{
+height: auto;
+width: 100%;
+z-index: 0;
+}
+main{
+	height: auto;
+	width: 98%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 1%;
+}
+.seccion{
+	height: auto;
+	width: 98%;
+	display: flex;
+	justify-content: space-evenly;
+	align-content: space-around;
+	align-items: center;
+	padding: 1%;
+}
+.seccion2{
+	height: auto;
+	width: 98%;
+	display: flex;
+	justify-content: space-evenly;
+	align-content: space-around;
+	align-items: center;
+	padding: 1%;
+}
+.ima1{
+	height: auto;
+	width: 30%;
+	padding: 1%;
+}
+.ima1 img{
+	width: 100%;
+}
+.text1{
+	height: auto;
+	width: 50%;
+	padding: 1%;
+}
+.text2{
+	height: auto;
+	width: 50%;
+	padding: 1%;
+}
+.ima2{
+	height: auto;
+	width: 30%;
+	padding: 1%;
+}
+.ima2 img{
+	width: 100%;
+}
+/*------------------------GALERÍA----------------------------*/
+.gale{
+	height: auto;
+	width: 100%;
+}
+.gale a:link {
+    padding: 3%;
+}
+/*------------------------CREACIÓN---------------------------*/
+.emp{
+	height: auto;
+	width: 100%;
+	display:flex;
+	flex-direction:column;
+	align-items: center;
+}
+.emp p{
+	margin:2%;
+}
+.emp h3{
+	text-align:center;
+	font-size:18px;
+	color:#679fba;
+}
+.arriba{
+	height: auto;
+	width: 98%;
+	display: flex;
+	padding-top: 2%;
+	padding: 1%;
+	flex-direction: row-reverse;
+	justify-content: space-evenly;
+}
+.ladoa .texto{
+	width:100%; 
+}
+.ladoa{
+	height: auto;
+	width: 20%;
+	padding: 1%;
+	background-color: #d54b26; 
+	border-radius: 10px;
+}
+.ladoa p{
+	font-size: 16px;
+}
+.crea{
+	height: auto;
+	width: 50%;
+	padding: 1%;
+}
+.crea img{
+	width: 90%;
+	display: block;
+	margin: auto;
+}
+.ladob{
+	height: auto;
+	width: 20%;
+	padding: 1%;
+	background-color: #679fba;
+	border-radius: 10px;
+}
+.ladob img{
+	width: 100%;
+	display: block;
+	margin: auto;
+	margin-top: 6%;
+	margin-bottom: 8%;
+}
+.ladob p{
+	font-size: 16px;
+}
+.emp aside{
+	width:90%;
+	height:auto;
+}
+.desarrolladores{
+	height: auto;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	padding-bottom: 1%;
+}
+.desarrolladores p{
+	margin-left: 7%;
+}
+.desarrolladores li{
+		line-height: 25px;
+}
+.contenedor_intro{
+	height: auto;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+.intro{
+	height: auto;
+	width: 20%;
+	padding: 1%;
+	overflow: hidden;
+	transition: .3s ease all;
+	cursor: pointer;
+}
+
+.intro.activa .lista{
+	opacity: 1;
+	margin-top: 10px;
+}
+
+.lista{
+	max-height: 0;
+	opacity: 0;
+	transition: .3s ease all;
+}
+
+/*----------------------HISTORIA-----------------------*/
+.hist{
+	height: auto;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+.hist section{
+	height: auto;
+	width: 55%;
+	padding: 1%;
+}
+.hist aside{
+	height: auto;
+	width: 35%;
+	padding: 1%;
+}
+.parte2img{
+	height: auto;
+	width: 30%;
+	padding: 1%;
+}
+.parte2img img{
+	width: 100%;
+}
+.parte2{
+	height: auto;
+	width: 60%;
+	padding: 1%;
+}
+.parte3{
+	height: auto;
+	width: 55%;
+	padding: 1%;
+}
+.parte3img{
+	height: auto;
+	width: 35%;
+	padding: 1%;
+}
+.parte3img img{
+	width: 100%;
+}
+.parte4{
+	height: auto;
+	width: 90%;
+	padding: 1%;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	background-color: #d54b26;
+	border-radius: 10px;
+}
+.parte4 h3{
+	color:#f5f5f5;	
+	text-align: center;
+}
+.trailer{
+	height: auto;
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+.video{
+	height: auto;
+	width: 100%;
+	padding: 1%;
+}
+.video iframe{
+	width: 100%;
+}
+
+/*----------------------PERSONAJES-----------------------*/
+
+.per{
+	height: auto;
+	width:100%;
+	display:flex;
+	flex-direction:column;
+}
+.jug2{
+	height: auto; 
+	width: 98%;
+	margin:1%;
+	display:flex; 
+	flex-direction:row;
+	justify-content: space-evenly;
+	align-items: baseline;
+	background-color: rgba(97, 85, 85, 0.089);
+}
+.jug{
+	height: auto; 
+	width: 98%;
+	margin:1%;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	display:flex; 
+	flex-direction:row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	background-color: rgba(97, 85, 85, 0.089);
+}
+.cup2{
+	height: auto;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    overflow: hidden;
+	transition: .3s ease all;
+	cursor: pointer;
+}
+.desc{
+	height: auto;
+	width: 100%;
+	max-height: 0;
+	opacity: 0;
+	transition: .3s ease all;
+}
+.cup{
+	height: auto;
+    width: 25%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.png{
+	height: 80%;
+	width: auto;
+	padding: 1%;
+}
+.png img{
+	width: 100%;
+}
+.nom{
+	height: 10%;
+	width: auto;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	
+}
+.cup2.activa .desc{
+	opacity: 1;
+	margin-top: 10px;
+}
+/*----------------------ESCENARIOS------------------------*/
+.mun{
+	display:flex;
+	flex-direction:column;
+	height: auto;
+	width: 96%;
+	padding: 2%;
+}
+.isla{
+	height: auto;
+	width: 96%;
+	padding: 2%;
+	display:flex;
+	flex-direction:row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	border-bottom-style: solid;
+	border-width: 1px;
+}
+.islatext{
+	height: auto;
+	width: 50%;
+}
+.listass{
+	height: auto;
+	width: 100%;
+}
+
+/*--------------------------OFICIAL------------------------*/
+.of{
+	height: auto;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.ofarriba{
+	height: auto;
+	width: 98%;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 1%;
+	justify-content: space-around;
+}
+.tp{
+	height: auto;
+	width: 100%;
+}
+.ofarriba aside{
+	height: auto;
+	width: 95%;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 1%;
+	
+}
+.ts{
+	height: auto;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+
+}
+.tslink{
+	height: auto;
+	width: 28%;
+	padding: 2%;
+}
+
+.tslink a:link{
+	text-decoration: none;
+	text-align: center;
+	color: #ffcf10;
+	font-family: "LEMON MILK";
+	padding:3%;
+	padding-left: 10%;
+	padding-right: 10%;
+	background-color: #615555;
+}
+.tslink a:visited{
+	text-decoration: none;
+	text-align: center;
+	color: #ffcf10;
+	font-family: "LEMON MILK";
+	padding:3%;
+	padding-left: 10%;
+	padding-right: 10%;
+	background-color: #615555;
+}
+.tslink a:hover{
+	text-decoration: none;
+	text-align: center;
+	color: #615555;
+	background-color: #ffcf10;
+}
+.premio1{
+	height: auto;
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	background-color: #ffcf10;
+	justify-content: space-around;
+}
+.premio{
+	height: auto;
+	width: 100%;
+	display: flex;
+	padding: 1%;
+	justify-content: center;
+	align-items: center;
+}
+.imapremio{
+	height: auto;
+	width: 20%;
+	padding: 1%;
+}
+.imapremio img{
+	width: 100%;
+	display: block;
+	margin: auto;
+}
+.textpremio{
+	height: auto;
+	width: 50%;
+	padding: 1%;
+}
+.textpremio li{
+	line-height: 30px;
+	font-size: 20px;	
+}
+.ofabajo{
+	height: auto;
+	width: 98%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 1%;
+}
+.tiplat{
+	height: auto;
+	width: 100%;
+}
+.plataformas{
+	height: auto;
+	width: 93%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	background-color: #ffcf10;
+	padding: 1%;
+}
+.plat{
+	height: auto;
+	width: 26%;
+	padding: 2%;
+}
+.plat1{
+	height: auto;
+	width: 26%;
+	padding: 2%;
+}
+.plat img{
+	width: 100%;
+}
+.plat1 img{
+	width: 35%;
+	display: block;
+	margin: auto;
+}
+/*--------------------CRÉDITOS---------------------*/
+.cre{
+	height: auto;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.dor{
+	height: auto;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+.nos{
+	height: auto;
+	width: 48%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 1%;
+	background-color: #ffcf10;
+}
+.fot{
+	height: auto;
+	width: 100%;
+	padding: 1%;
+}
+.fot img{
+	width: 30%;
+	display: block;
+	margin: auto;
+}
+.td{
+	height: auto;
+	width: 100%;
+	padding: 1%;
+}
+.td h3{
+	text-align: center;
+}
+.con{
+	height: auto;
+	width: 96%;
+	padding: 2%;
+}
+/*------------- Media Quearies --------------*/
+@media screen and (max-width:800px)
+{
+	nav{
+		min-width: 30%;
+		max-width: 50%;
+	}
+	.links{
+		padding: 8%;
+	}
+	.links .desple{
+		min-width: 60%;
+		max-width: 80%; 
+		background-color: #679fba;
+	}
+	.links .desple li a:link{
+		font-size: 12px;
+	}
+	footer{
+		flex-wrap: wrap;
+		align-items: center;
+	}
+	footer .logo{
+		width: 20%;
+	}
+	footer .redes{
+		width: 10%;
+		padding: 7%;
+	}
+	footer .marcas{
+		width: 100%;
+		padding: 0%;
+	}
+	.termi p{
+		font-size: 10px;
+	}
+	h1{
+		font-size: 26px;
+	}
+	h2{
+		font-size: 20px;
+	}
+	h3{
+		font-size: 18px;
+	}
+	p{
+		font-size: 17px;
+	}
+	li{
+		font-size: 15px;
+	}
+	/*------------INDEX-------------*/
+	.seccion{
+		flex-direction: column-reverse;
+	}
+	.seccion2{
+		flex-direction: column;
+	}
+	.ima1{
+		width: 98%;
+		padding: 1%;
+	}
+	.text1{
+		width: 98%;
+		padding: 1%;
+	}
+	.ima2{
+		width: 98%;
+		padding: 1%;
+	}
+	.text2{
+		width: 98%;
+		padding: 1%;
+	}
+	/*-------------GALERÍA-------------*/
+	#vlightbox1{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	/*--------------CREACIÓN------------*/
+	.arriba{
+		flex-direction: column-reverse;
+		justify-content: center;
+	}
+	.ladoa{
+		width: 98%;
+	}
+	.crea{
+		width: 98%;
+	}
+	.ladob{
+		width: 98%;
+	}
+	.emp aside{
+		width:98%;
+	}
+	.desarrolladores{
+		width: 98%;
+	}
+	.desarrolladores p{
+		margin-left: 0%;
+		margin: auto;
+		padding: 1%;
+	}
+	.contenedor_intro{
+		flex-direction: column;
+		align-items: center;
+	}
+	.intro{
+		width: 98%;
+		padding: 1%;
+	}
+	/*--------------HISTORIA------------*/
+	.hist{
+		flex-direction: column;
+		align-items: center;
+	}
+	.hist section{
+		width: 98%;
+		padding: 1%;
+	}
+	.hist aside{
+		width: 98%;
+		padding: 1%;
+	}
+	.hist .parte2img{
+		width: 98%;
+		padding: 1%;
+	}
+	.hist .parte2{
+		width: 98%;
+		padding: 1%;
+	}
+	.hist .parte3{
+		width: 98%;
+		padding: 1%;
+	}
+	.hist .parte3img{
+		width: 98%;
+		padding: 1%;
+	}
+	.hist .parte4{
+		width: 96%;
+		margin: 1%;
+	}
+	.trailer{
+		flex-direction: column;
+		width: 98%;
+		padding: 1%;
+	}
+	/*-------------PERSONAJES------------*/
+	.per{
+		align-items: center;
+	}
+	.jug2{
+		flex-direction: column;
+		align-items: center;
+	}
+	.cup2{
+		width: 98%;
+		padding: 1%;
+	}
+	.nom{
+		padding: 1%;
+	}
+	.jug{
+		flex-direction: column;
+		align-items: center;
+	}
+	.cup{
+		width: 98%;
+		padding: 1%;
+	}
+	/*-----------ESCENARIOS---------------*/
+	.isla{
+		flex-direction: column;
+		align-items: center;
+	}
+	.islatext{
+		width: 98%;
+		padding: 1%;
+	}
+	.listass li{
+		line-height: 45px;
+	}
+
+	/*-------------OFICIAL---------------*/
+	.ofarriba{
+		flex-direction: column;
+		align-items: center;
+	}
+	.ofarriba aside{
+		flex-direction: column;
+		align-items: center;
+	}
+	.ofarriba .ts{
+		flex-direction: column;
+		align-items: center;
+	}
+	.ts .tslink{
+		width: 98%;
+		margin: 1%;
+	}
+	.premio1{
+		width: 98%;
+		padding: 1%;
+	}
+	.premio{
+		flex-direction: column;
+		align-items: center;
+		width: 98%;
+		padding: 1%;
+	}
+	.premio .imapremio{
+		width: 70%;
+		padding: 1%;
+	}
+	.premio .textpremio{
+		width: 98%;
+		padding: 1%;
+	}
+	.ofabajo .plataformas{
+		flex-direction: column;
+		align-items: center;
+	}
+	.plataformas .plat{
+		width: 70%;
+		padding: 3%;
+	}
+	.plataformas .plat1{
+		width: 70%;
+		padding: 3%;
+	}
+	/*----------CRÉDITOS-----------*/
+	.dor{
+		flex-direction: column;
+		align-items: center;
+	}
+	.nos{
+		width:100%;
+	}
+	
+
+}
